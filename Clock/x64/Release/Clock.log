@@ -1,0 +1,9 @@
+﻿  Bsp_Clock.c
+  Bsp_Key.c
+  Display.c
+  main.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Clock.vcxproj -> C:\Users\point\source\repos\Clock\x64\Release\Clock.exe
