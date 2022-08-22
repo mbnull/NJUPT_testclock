@@ -18,7 +18,9 @@ typedef enum DisPlayGraph
 	ConfAlarmMinute,
 }DisplayGraphyType;
 
-void DisPlay(DisplayGraphyType);
+void Display(DisplayGraphyType);
+
+void InitDisplay();
 
 
 #endif

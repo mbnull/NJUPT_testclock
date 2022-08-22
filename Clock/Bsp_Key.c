@@ -49,7 +49,6 @@ void KeyInit()
 
 	PrivateDate.Second = 0;
 
-
 	PrivateStatus.Mode = 1;
 	PrivateStatus.FuncKey = 1;
 	PrivateStatus.ConfigClockAlarm = 0;

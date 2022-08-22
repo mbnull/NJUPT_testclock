@@ -1,5 +1,12 @@
 #include"Display.h"
 
+static Date DisplayDate;
+
+void InitDisplay()
+{
+	DisplayDate = GetTime();
+}
+
 void Display(DisplayGraphyType Type)
 {
 	switch (Type)
