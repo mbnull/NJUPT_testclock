@@ -1,3 +1,28 @@
-# Stm32Clock
-!!! For NJUPT SAST test use,not a compelte or updating Project.
-Now is a Visual Studio Project, it will be change into a MDK Project(or I'll push into another Floder)
+
+___
+
+# NJUPT 2022 SAST 电子部单片机方向免试题
+___
+
+`基于HAL库以及U8g2库开发
+直接调用了hal的rtc，其实自己啥都没干（），之前写的废案了`
+
+_已实现功能_
+
+- 基本功能：查看时间 显示月份以及日期
+- 闹钟功能（仅仅支持设置开启关闭，后续改进）
+- 任意修改时间以及闹钟（正常的钟都该有把）
+
+
+_计划实现的功能_
+
+- 添加年份显示,并且能正确判断闰年
+- 允许修改闹钟触发的条件（如周一触发周二不触发）
+- 增加按键 提高操作性
+
+
+_做梦_
+
+- 能够联网获取时钟
+- 能联网获得当地天气
+- 添加更多的图像
